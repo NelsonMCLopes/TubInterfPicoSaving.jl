@@ -31,5 +31,5 @@ include("tips_dataTreatm.jl")
 export tips_scopImport_testsum
 export tips_dataSaving_testsum
 export tips_dataTreatm_testsum
-
+export ccc
 end #module

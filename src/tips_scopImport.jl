@@ -25,3 +25,17 @@ end
 # testcode
 # tips_scopImport_testsum(a,b)=a+b
 #*************************************************
+function aaa()
+  aa = 23
+  aa
+end
+
+function bbb()
+  bb = 24
+  bb
+end
+
+function ccc(a,b)
+  cc = aa*aaa+bb*bbb
+  cc
+end
