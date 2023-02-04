@@ -1,0 +1,13 @@
+name = "TubInterfPicoSaving"
+uuid = "5b4b7d95-ac6b-49ed-b921-60f35782c4b6"
+authors = ["your-name"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
