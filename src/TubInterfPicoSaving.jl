@@ -42,6 +42,10 @@ Pkg.add("DataFrames")
 Pkg.add("ColorSchemes")
 Pkg.add("Formatting")
 Pkg.add("Dates")
+Pkg.add("TOML")
+
+this package
+Pkg.add(Pkg.PackageSpec(url="https://github.com/NelsonMCLopes/TubInterfPicoSaving.jl.git"))
 
 using FileIO, Colors, Plots;
 using FixedPointNumbers;
@@ -59,11 +63,19 @@ using ForwardDiff;
 using DataFrames;
 using Formatting;
 using Dates;
+using TOML
+
+using TubInterfPicoSaving
 
 =#
 
 
 module TubInterfPicoSaving
+
+module Internals
+    include("TOML.jl")
+
+end
 
 # include all modules
 include("tips_scopImport.jl")
