@@ -1,0 +1,13 @@
+# tips_config.toml
+
+# cofiguration file for tips...
+# ... tips is short for tubInterfPicoSaving...
+
+
+# Path to save the data
+# NOTE: for safety this directory need to be manually crated in advance
+# windows version -> uncomment if windows
+# savingPath = "C:/ExpData"
+# iOS version -> uncoment if iOS
+# savingPath = "C:/ExpData"
+savingPath = "/Users/nelsonlopes/cernbox/Test_Results/ExpDataIST/"
